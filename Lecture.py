@@ -7,3 +7,5 @@ print(floatVariable)
 print(stringVariable)
 
 print(type(intVariable))
+print(type(floatVariable))
+print(type(stringVariable))
