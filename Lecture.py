@@ -19,11 +19,11 @@ shareOfLoan = 500.50/3
 print(shareOfLoan)
 print(int(shareOfLoan))
 print(type(shareOfLoan))
-'''
+
 floatVariable = 412.50894756345
 num1 = int(input("Enter a number: "))
 num2 = float(input("Enter another number: "))
-sum = num1 + num2
+sum = int(num1 + num2)
 print(sum)
 name = input("Enter your name: ")
 school = input("Enter your school: ")
@@ -33,3 +33,9 @@ print(f"your name is, {name}, and your school name is: {school}")
 
 print(f"Your name is, {name}, and your float Variable is, {floatVariable}")
 print(f"Your name is, {name}, and your float Variable is, {floatVariable:.2f}")
+'''
+import math
+
+radius = float(input("Enter a radius: "))
+area = math.pi * (radius ** 2)
+print(f"your radius is: {radius}, and your area is: {area:.3f}")
